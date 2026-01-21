@@ -35,7 +35,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
-    websiteLink: "https://nbarkiya.xyz",
+    websiteLink: "https://deepanshu.me",
     githubLink: "https://github.com/namanbarkiya/minimal-next-portfolio",
     techStack: [
       "Next.js",
@@ -403,7 +403,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "3D Modeling"],
     shortDescription:
       "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
-    websiteLink: "https://card.namanbarkiya.xyz/",
+    websiteLink: "https://card.namadeepanshu.me/",
     githubLink: "https://github.com/namanbarkiya/3d-portfolio-card",
     techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
     startDate: new Date("2022-03-01"),
@@ -454,7 +454,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
+    websiteLink: "https://cirql-ui.namadeepanshu.me/",
     techStack: ["React", "Tailwind CSS", "Google Auth"],
     startDate: new Date("2023-01-01"),
     endDate: new Date("2023-02-15"),
@@ -497,7 +497,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "UI/UX"],
     shortDescription:
       "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
-    websiteLink: "https://hindityping.namanbarkiya.xyz",
+    websiteLink: "https://hindityping.namadeepanshu.me",
     githubLink: "https://github.com/namanbarkiya/inscript-hindi-keyboard",
     techStack: ["HTML 5", "CSS 3", "Javascript"],
     startDate: new Date("2022-05-01"),
