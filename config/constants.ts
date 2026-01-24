@@ -71,7 +71,13 @@ export type ValidSkills =
   | "Cloud Infrastructure"
   | "System Design"
   | "Computer Vision"
-  | "Image Processing";
+  | "Image Processing"
+  | "SQLite"
+  | "Android"
+  | "C++ GUI"
+  | "C++"
+  | "Google Maps API"
+  | "Volley";
 
 export type ValidCategory =
   | "Full Stack"
@@ -80,7 +86,14 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Desktop App"
+  | "Health Records App"
+  | "Utility App"
+  | "Android"
+  | "C++"
+  | "C++ GUI"
+  | "Mobile App";
 
 export type ValidExpType = "Personal" | "Professional";
 
