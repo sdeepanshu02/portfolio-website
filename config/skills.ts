@@ -103,6 +103,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.terraform,
   },
+  // Cloud Provider
   {
     name: "GCP",
     description:
