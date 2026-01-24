@@ -60,7 +60,24 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Go"
+  | "REST"
+  | "NLP"
+  | "Observability"
+  | "Helm"
+  | "Microservices"
+  | "Distributed Systems"
+  | "Cloud Infrastructure"
+  | "System Design"
+  | "Computer Vision"
+  | "Image Processing"
+  | "SQLite"
+  | "Android"
+  | "C++ GUI"
+  | "C++"
+  | "Google Maps API"
+  | "Volley";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +86,14 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Desktop App"
+  | "Health Records App"
+  | "Utility App"
+  | "Android"
+  | "C++"
+  | "C++ GUI"
+  | "Mobile App";
 
 export type ValidExpType = "Personal" | "Professional";
 
@@ -79,5 +103,4 @@ export type ValidPages =
   | "projects"
   | "experience"
   | "contact"
-  | "contributions"
   | "resume";

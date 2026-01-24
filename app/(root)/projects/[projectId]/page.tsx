@@ -89,14 +89,17 @@ export default async function Project({ params }: ProjectPageProps) {
         </div>
       </div>
 
-      <Image
-        src={project.companyLogoImg}
-        alt={project.companyName}
-        width={720}
-        height={405}
-        className="my-8 rounded-md border bg-muted transition-colors"
-        priority
-      />
+
+      {project.companyLogoImg && (
+        <Image
+          src={project.companyLogoImg}
+          alt={project.companyName}
+          width={720}
+          height={405}
+          className="my-8 rounded-md border bg-muted transition-colors"
+          priority
+        />
+      )}
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">

@@ -8,153 +8,108 @@ export interface skillsInterface {
 }
 
 export const skillsUnsorted: skillsInterface[] = [
+  // Programming
   {
-    name: "Next.js",
+    name: "Python",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "A versatile, high-level programming language known for readability and broad application.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.python,
+  },
+  {
+    name: "Go",
+    description:
+      "A statically typed, compiled language designed for simplicity and efficiency.",
+    rating: 4,
+    icon: Icons.go,
+  },
+  {
+    name: "Ruby",
+    description:
+      "A dynamic, open-source language focused on simplicity and productivity.",
+    rating: 4,
+    icon: Icons.ruby,
+  },
+  // Frameworks
+  {
+    name: "Django",
+    description:
+      "A high-level Python web framework that encourages rapid development and clean design.",
+    rating: 5,
+    icon: Icons.django,
+  },
+  {
+    name: "Ruby on Rails",
+    description:
+      "A server-side web application framework written in Ruby for fast development.",
+    rating: 4,
+    icon: Icons.rubyonrails,
   },
   {
     name: "React",
     description:
       "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
+    rating: 3,
     icon: Icons.react,
   },
+  // Database
   {
-    name: "GraphQL",
+    name: "MySQL",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "An open-source relational database management system for structured data.",
     rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
+    icon: Icons.mysql,
   },
   {
     name: "MongoDB",
     description:
       "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
+    rating: 3,
     icon: Icons.mongodb,
   },
   {
-    name: "Typescript",
+    name: "PostgreSQL",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "A powerful, open-source object-relational database with advanced features.",
     rating: 5,
-    icon: Icons.typescript,
+    icon: Icons.postgresql,
   },
+  // Miscellaneous
   {
-    name: "Javascript",
+    name: "Docker",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "A platform for developing, shipping, and running applications in containers.",
     rating: 5,
-    icon: Icons.javascript,
+    icon: Icons.docker,
   },
   {
-    name: "HTML 5",
+    name: "Kubernetes",
     description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+      "An open-source system for automating deployment, scaling, and management of containerized applications.",
     rating: 4,
-    icon: Icons.html5,
+    icon: Icons.kubernetes,
   },
   {
-    name: "CSS 3",
+    name: "Helm",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "A package manager for Kubernetes that streamlines application deployment.",
     rating: 4,
-    icon: Icons.css3,
+    icon: Icons.helm,
   },
   {
-    name: "React Native",
+    name: "Terraform",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+      "An infrastructure as code tool for building, changing, and versioning infrastructure safely.",
     rating: 3,
-    icon: Icons.angular,
+    icon: Icons.terraform,
   },
+  // Cloud Provider
   {
-    name: "Redux",
+    name: "GCP",
     description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Google Cloud Platform provides scalable cloud computing services for building and deploying applications.",
     rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.gcp,
   },
 ];
 
