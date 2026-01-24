@@ -60,7 +60,18 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Go"
+  | "REST"
+  | "NLP"
+  | "Observability"
+  | "Helm"
+  | "Microservices"
+  | "Distributed Systems"
+  | "Cloud Infrastructure"
+  | "System Design"
+  | "Computer Vision"
+  | "Image Processing";
 
 export type ValidCategory =
   | "Full Stack"
