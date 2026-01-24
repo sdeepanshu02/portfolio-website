@@ -46,15 +46,6 @@ export const pagesConfig: PagesConfig = {
       description: "Contact Deepanshu Sharma.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Deepanshu Sharma's open-source contributions and community involvement.",
-    },
-  },
   resume: {
     title: "Resume",
     description: "Deepanshu Sharma's resume.",
