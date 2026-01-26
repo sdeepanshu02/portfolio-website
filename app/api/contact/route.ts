@@ -18,9 +18,15 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, message, social, email } = body;
 
+    const baseUrl = formLink.endsWith("/formResponse")
+      ? formLink
+      : `${formLink}/formResponse`;
+
     const res = await fetch(
-      `${formLink}/formResponse?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`
+      `${baseUrl}?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`
     );
+    console.log(res);
+    console.log(`${baseUrl}?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`);
 
     return NextResponse.json("Success!");
   } catch (error) {
