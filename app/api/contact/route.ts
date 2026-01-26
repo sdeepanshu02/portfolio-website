@@ -25,8 +25,6 @@ export async function POST(req: Request) {
     const res = await fetch(
       `${baseUrl}?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`
     );
-    console.log(res);
-    console.log(`${baseUrl}?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`);
 
     return NextResponse.json("Success!");
   } catch (error) {
